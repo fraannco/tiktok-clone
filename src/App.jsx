@@ -1,15 +1,15 @@
-import { useState } from "react";
-import "./App.css";
+/* import { useState } from 'react' */
+import './App.css'
+import VideoPlayer from './components/VideoPlayer/index.jsx'
 
-function App() {
-
+function App () {
   return (
-    <div className="App">
+    <div className='App'>
       <main>
-        Tik Tok clone
+        <VideoPlayer />
       </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
